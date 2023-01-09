@@ -120,6 +120,12 @@ android {
 }
 
 dependencies {
+    androidTestImplementation 'com.kaspersky.android-components:kaspresso:1.5.1'
+    // Allure support
+    androidTestImplementation "com.kaspersky.android-components:kaspresso-allure-support:1.5.1"
+    // Jetpack Compose support
+    androidTestImplementation "com.kaspersky.android-components:kaspresso-compose-support:1.5.1"
+
     testImplementation 'junit:junit:4.12'
     testImplementation 'org.powermock:powermock:1.6.5'
     testImplementation 'org.powermock:powermock-module-junit4:1.6.5'
